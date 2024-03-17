@@ -13,7 +13,7 @@ Sempre que você enviar uma alteração, seu repositório inteiro vai ser testad
 
 Alguns métodos de avaliação são por comparação simples. Então por exemplo se o resultado esperado for "Sim" e você escreveu "sim" com letra minúscula, pode ser que o teste dê errado mesmo que você tenha acertado!
 
-Mas não se preocupe! Novamente, você pode submeter quantas vezes você quiser até acertar.
+Mas não se preocupe! Novamente, você pode submeter quantas vezes você quiser até acertar. Então revise esses detalhes e tente novamente.
 
 ## Como saber se acertei ou errei os testes?
 
