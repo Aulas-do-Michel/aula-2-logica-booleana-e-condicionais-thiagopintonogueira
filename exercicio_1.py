@@ -1,15 +1,19 @@
 """
-#### Exercício
+#### Exercício 1
 
-Dado um número digitado pelo usuário, imprima seu antecessor, seu sucessor, seu dobro e sua raiz quadrada
+Receba um número inteiro de um usuário. Se ele for para, imprima "Par". Se não, imprima ímpar.
 
 Exemplo:
-Digite seu número: 4
 
-Resposta:
+Digite um número:
+10
 
-O antecessor do número 4 é 3.
-O sucessor do número 4 é 5.
-O dobro do número 4 é 8.
-A raiz quadrada do número 4 é 2.
+Par
+--------
+Digite um número:
+1
+
+Ímpar
+
+Dica: Lembre do comando de resto da divisão inteira!
 """
