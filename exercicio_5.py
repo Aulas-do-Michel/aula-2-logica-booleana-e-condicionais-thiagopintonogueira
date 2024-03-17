@@ -1,5 +1,5 @@
 """
-### Exercício 3 - Analisador de Variantes Genéticas.
+### Exercício 5 - Analisador de Variantes Genéticas.
 
 Você está analisando uma variante genética e precisa saber se ela é relevante para análise ou não.
 
