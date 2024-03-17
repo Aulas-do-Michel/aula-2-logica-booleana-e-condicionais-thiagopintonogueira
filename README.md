@@ -1,37 +1,24 @@
-# Aula 01
+# Intruções
 Faça os exercícios!
 
 ## Como fazer?
 
-Vá até o arquivo exercicio_1.py, e exercicio_2.py respectivamente. Lá estão o comentário dos exercícios. Modifique o arquivo para que ele haja de acordo com o esperado!
+Vá até os arquivos de exercícios (que começam com exercícios_{x}.py) e faça os exercícios. 
 
-#### Exercício 1
+Quando terminar clique em "Commit Changes" e então em "Commit directly to the master branch".
 
-Dado um número digitado pelo usuário, imprima seu antecessor, seu sucessor, seu dobro e sua raiz quadrada
+Sempre que você enviar uma alteração, seu repositório inteiro vai ser testado de uma vez (ou seja, se você fizer um dos exercícios ainda ocorrerão erros nos testes dos exercícios que você não fez). Mas não se preocupe! Você pode submeter quantas vezes você quiser!
 
-Exemplo:
-Digite seu número: 4
+## Cuidado!!!
 
-Resposta:
+Alguns métodos de avaliação são por comparação simples. Então por exemplo se o resultado esperado for "Sim" e você escreveu "sim" com letra minúscula, pode ser que o teste dê errado mesmo que você tenha acertado!
 
-O antecessor do número 4 é 3.
+Mas não se preocupe! Novamente, você pode submeter quantas vezes você quiser até acertar.
 
-O sucessor do número 4 é 5.
+## Como saber se acertei ou errei os testes?
 
-O dobro do número 4 é 8.
+Indo para aba Actions, você pode ver se seus testes passaram ou falharam. 
 
-A raiz quadrada do número 4 é 2.
+Caso um teste falhe, ele já indicará a falha. 
 
-#### Exercício 2
-
-Receba 2 inputs do usuário: O preço de um produto em reais e uma porcentagem de desconto a ser aplicada sobre ele (entre 0 e 100). Devolva o preço final do produto.
-
-Exemplo:
-
-Digite o preço do produtos em reais: 10.5
-
-Digite o desconto a ser aplicado (em porcentagem): 50
-
-
-Resposta:
-O preço final do produto é 5.25
+Mas se você clicar dentro da action, poderá ver no detalhe quais passaram e quais não passaram.
