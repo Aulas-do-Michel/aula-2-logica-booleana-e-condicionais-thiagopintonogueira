@@ -19,6 +19,17 @@ Utilize as seguintes conversões:
 1 real = 180 ARS
 1 real = 30 JPY
 
+Obs:
+Nos testes, vou tentar ignorar caso haja apenas uma diferença no número de casas decimais nas respostas.
+Porém, se você quiser garantir que você imprima com exatamente 2 casas decimais você pode usar a seguinte sintaxe: f"{sua_variavel:.2f}".
+
+Exemplo:
+valor_em_dolares = 23.333333
+print(f"{valor_em_dolares:.2f} USD")
+>>> 23.33 USD
+
+Mais informações sobre formatação de strings: https://realpython.com/python-f-strings/#interpolating-values-and-objects-in-f-strings
+
 -------------------------------------------
 Exemplos:
 
