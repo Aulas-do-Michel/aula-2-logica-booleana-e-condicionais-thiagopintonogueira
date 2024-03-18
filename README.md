@@ -5,9 +5,11 @@ Faça os exercícios!
 
 Vá até os arquivos de exercícios (que começam com exercícios_{x}.py) e faça os exercícios. 
 
-Quando terminar clique em "Commit Changes" e então em "Commit directly to the master branch".
+Depois, comite seu código na branch mastar. Caso não esteja familiarizado com o Github ainda, não se preocupe!
+Pode simplesmente clicar em editar o arquivo e o fazer pelo site mesmo (mas recomendo testar antes no seu computador!)
+Quando terminar de editar, clique em "Commit Changes" e então em "Commit directly to the master branch".
 
-Sempre que você enviar uma alteração, seu repositório inteiro vai ser testado de uma vez (ou seja, se você fizer um dos exercícios ainda ocorrerão erros nos testes dos exercícios que você não fez). Mas não se preocupe! Você pode submeter quantas vezes você quiser!
+Sempre que você enviar uma alteração, seu repositório inteiro vai ser testado de uma vez (ou seja, se você editou só um dos exercícios ainda ocorrerão erros nos testes dos exercícios que você não fez). Mas não se preocupe! Você pode submeter quantas vezes você quiser!
 
 ## Cuidado!!!
 
