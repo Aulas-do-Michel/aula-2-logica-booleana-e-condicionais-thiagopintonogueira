@@ -5,7 +5,7 @@ Faça os exercícios!
 
 Vá até os arquivos de exercícios (que começam com exercícios_{x}.py) e faça os exercícios. 
 
-Depois, comite seu código na branch mastar. Caso não esteja familiarizado com o Github ainda, não se preocupe!
+Depois, comite seu código na branch master. Caso não esteja familiarizado com o Github ainda, não se preocupe!
 Pode simplesmente clicar em editar o arquivo e o fazer pelo site mesmo (mas recomendo testar antes no seu computador!)
 Quando terminar de editar, clique em "Commit Changes" e então em "Commit directly to the master branch".
 
