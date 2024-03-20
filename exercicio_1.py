@@ -1,7 +1,7 @@
 """
 #### Exercício 1
 
-Receba um número inteiro de um usuário. Se ele for para, imprima "Par". Se não, imprima ímpar.
+Receba um número inteiro de um usuário. Se ele for par, imprima "Par". Se não, imprima "Ímpar".
 
 Exemplo:
 
