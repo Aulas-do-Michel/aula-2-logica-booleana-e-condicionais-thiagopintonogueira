@@ -82,3 +82,22 @@ Digite a frequencia alélica (em porcentagem): 100
 
 Resposta: Não é relevante.
 """
+# Receber os parâmetros da variante genética
+frequencia_populacional = float(input("Frequência Populacional (%): "))
+gene = input("Gene: ")
+impacto = input("Impacto (ALTO ou BAIXO): ").upper()
+reads = int(input("Quantidade de reads: "))
+vaf = float(input("Frequência alélica (%): "))
+
+# Verificar se a variante é um artefato
+if reads < 10 or vaf < 20:
+    print("A variante não é relevante devido à baixa qualidade da leitura.")
+else:
+    # Verificar se o impacto é ALTO e a frequência não é alta, a menos que esteja em genes de exceção
+    if impacto == "ALTO":
+        if frequencia_populacional > 5 and gene not in ["HFE", "MEFV", "GJB2"]:
+            print("A variante não é relevante devido à sua alta frequência em relação à população.")
+        else:
+            print("A variante é relevante para análise.")
+    else:
+        print("A variante não é relevante devido ao seu baixo impacto.")
