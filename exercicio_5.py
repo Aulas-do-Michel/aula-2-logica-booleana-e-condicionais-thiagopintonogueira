@@ -82,10 +82,6 @@ Digite a frequencia alélica (em porcentagem): 100
 
 Resposta: Não é relevante.
 """
-Aqui está o código Python para o exercício:
-
-python
-
 # Receber inputs do usuário
 frequencia_populacional = float(input("Digite a frequência populacional (0 a 100): "))
 gene = input("Digite o gene: ")
