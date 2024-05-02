@@ -82,22 +82,24 @@ Digite a frequencia alélica (em porcentagem): 100
 
 Resposta: Não é relevante.
 """
-# Receber os parâmetros da variante genética
-frequencia_populacional = float(input("Frequência Populacional (%): "))
-gene = input("Gene: ")
-impacto = input("Impacto (ALTO ou BAIXO): ").upper()
-reads = int(input("Quantidade de reads: "))
-vaf = float(input("Frequência alélica (%): "))
+Aqui está o código Python para o exercício:
 
-# Verificar se a variante é um artefato
-if reads < 10 or vaf < 20:
-    print("A variante não é relevante devido à baixa qualidade da leitura.")
-else:
-    # Verificar se o impacto é ALTO e a frequência não é alta, a menos que esteja em genes de exceção
-    if impacto == "ALTO":
-        if frequencia_populacional > 5 and gene not in ["HFE", "MEFV", "GJB2"]:
-            print("A variante não é relevante devido à sua alta frequência em relação à população.")
-        else:
-            print("A variante é relevante para análise.")
+python
+
+# Receber inputs do usuário
+frequencia_populacional = float(input("Digite a frequência populacional (0 a 100): "))
+gene = input("Digite o gene: ")
+impacto = input("Digite o impacto na população (ALTO ou BAIXO): ").upper()
+quantidade_reads = int(input("Digite a quantidade de reads: "))
+vaf = float(input("Digite a frequência alélica da variante (0 a 100): "))
+
+# Verificar se a variante é relevante
+if quantidade_reads < 10 or vaf < 20:
+    print("A variante não é relevante, provavelmente é um artefato.")
+elif impacto == "ALTO":
+    if vaf > 5 and gene not in ["HFE", "MEFV", "GJB2"]:
+        print("A variante não é relevante, a frequência é alta e não está em um gene de exceção.")
     else:
-        print("A variante não é relevante devido ao seu baixo impacto.")
+        print("A variante é relevante.")
+else:
+    print("A variante não é relevante, o impacto não é alto.")
