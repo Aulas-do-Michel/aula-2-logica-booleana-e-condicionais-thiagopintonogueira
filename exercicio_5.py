@@ -85,17 +85,13 @@ Resposta: Não é relevante.
 # Receber inputs do usuário
 frequencia_populacional = float(input("Digite a frequência populacional (0 a 100): "))
 gene = input("Digite o gene: ")
-impacto = input("Digite o impacto na população (ALTO ou BAIXO): ").upper()
+impacto_populacao = input("Digite o impacto na população (ALTO ou BAIXO): ").upper()
 quantidade_reads = int(input("Digite a quantidade de reads: "))
-vaf = float(input("Digite a frequência alélica da variante (0 a 100): "))
+vaf = float(input("Digite a VAF (Frequência alélica da variante) (0 a 100): "))
 
-# Verificar se a variante é relevante
-if quantidade_reads < 10 or vaf < 20:
-    print("A variante não é relevante, provavelmente é um artefato.")
-elif impacto == "ALTO":
-    if vaf > 5 and gene not in ["HFE", "MEFV", "GJB2"]:
-        print("A variante não é relevante, a frequência é alta e não está em um gene de exceção.")
-    else:
-        print("A variante é relevante.")
+# Verificar se a amostra é relevante
+if quantidade_reads <= 10 or vaf <= 20 or impacto_populacao == "BAIXO" or \
+    (frequencia_populacional > 5 and gene not in ["HFE", "MEFV", "GJB2"]):
+    print("Resultado: NÃO RELEVANTE")
 else:
-    print("A variante não é relevante, o impacto não é alto.")
+    print("Resultado: RELEVANTE")
